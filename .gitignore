@@ -1,0 +1,72 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Xcode patch files
+*.hmap
+
+## App packaging
+*.ipa
+*.bundle.resources
+
+## Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift packages.
+# .build/
+
+## DerivedData
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# if you're sure you want to do this, un-comment the next line.
+# Pods/
+
+## Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts/
+Carthage/Build/
+
+## AccuRev
+.accurev/
+.accurev.lock
+
+## IDE - AppCode
+.idea/
+
+## OS X
+.DS_Store
+
+## Others
+*~
+*.swp
+*.lock
