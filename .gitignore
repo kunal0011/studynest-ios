@@ -11,11 +11,18 @@ xcuserdata/
 ## App packaging
 *.ipa
 *.bundle.resources
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
 
 ## Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift packages.
 # .build/
+.build/
 
 ## DerivedData
 build/
@@ -43,6 +50,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+fastlane/screenshots/**/*.png
 
 ## CocoaPods
 #
